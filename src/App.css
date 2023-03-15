@@ -95,14 +95,6 @@ header {
   background-color: #103f80;
 }
 
-.cart {
-  margin: 30px 0px;
-}
-
-.cart h1 {
-  text-align: center;
-}
-
 .cartCard {
   display: flex;
   justify-content: space-between;
@@ -141,6 +133,22 @@ header {
 .cartCard button:hover {
   background-color: #8e090f;
 }
+
+.product .remove {
+  background-color: #ac0d14;
+}
+.product .remove:hover {
+  background-color: #8e090f;
+}
+
+.cart {
+  margin: 30px 0px;
+}
+
+.cart h1 {
+  text-align: center;
+}
+
 
 
 @media screen and (max-width: 680px) {
